@@ -53,7 +53,7 @@ exp = SimpleExperiment(train_datasource=train_ds,
 						validation_datasource=val_ds,
 						loss=KLD,
 						optimizer=Adadelta(),
-						metrics=['acc', 'mae'],
+						metrics=['mae'],
 						network = net,
 						callbacks=callbacks)
 
