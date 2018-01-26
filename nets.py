@@ -5,7 +5,6 @@ from keras import regularizers
 from keras.models import Sequential
 from keras.layers import Dense, Activation, LSTM, Dropout, Flatten, Conv1D, BatchNormalization, MaxPooling1D, Reshape
 from keras import regularizers as reg
-from dlframework.net_factory.network import Network
 import attr
 import pdb
 import keras.backend.tensorflow_backend as K
